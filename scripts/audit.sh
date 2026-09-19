@@ -3,8 +3,8 @@
 #
 #   audit.sh [project-dir]        (defaults to the current directory)
 #
-# This finds candidates, not verdicts. Every hit needs a human or Claude to read
-# the surrounding code: UIScreen.main.scale for image rendering is fine,
+# This finds candidates, not verdicts. Every hit needs someone to read the
+# surrounding code: UIScreen.main.scale for image rendering is fine,
 # UIScreen.main.bounds.width for layout is not. Requirement details live in
 # ../references/*.md.
 

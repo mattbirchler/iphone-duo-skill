@@ -60,8 +60,11 @@ toolbars for Duo"), do that slice of each phase rather than the whole app.
 ### 2. Static audit
 
 ```bash
-~/.claude/skills/iphone-duo/scripts/audit.sh /path/to/project
+scripts/audit.sh /path/to/project
 ```
+
+Script and reference paths in this file are relative to the skill's directory,
+the folder that holds this `SKILL.md`. Prefix them with wherever it is installed.
 
 The script lists candidates grouped by requirement, with severity and the
 reference file to read. It produces candidates, not findings. Open each hit and
@@ -156,7 +159,7 @@ so fetching a doc URL as HTML returns an empty shell. The script reads the JSON
 behind each page instead.
 
 ```bash
-cd ~/.claude/skills/iphone-duo
+cd /path/to/this/skill
 python3 scripts/fetch-docs.py --check      # what changed upstream, writes nothing
 python3 scripts/fetch-docs.py              # refresh references/apple/
 python3 scripts/fetch-docs.py /documentation/swiftui/arrangementviewstyle   # print any one page
