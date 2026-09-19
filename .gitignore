@@ -1,0 +1,4 @@
+.DS_Store
+
+# Apple's documentation pages. Run scripts/fetch-docs.py to download them.
+references/apple/

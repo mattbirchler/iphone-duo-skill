@@ -1,0 +1,124 @@
+# Apple documentation pages this skill is built from.
+# One path per line, relative to https://developer.apple.com
+# fetch-docs.py reads this file. Add a line, rerun the script, and the page
+# lands in references/apple/ as markdown.
+
+# Articles
+/documentation/technologyoverviews/preparing-your-app-for-iphone-duo
+/design/human-interface-guidelines/designing-for-iphone-duo
+/documentation/avkit/choosing-a-camera-by-the-direction-it-faces
+/documentation/avfoundation/registering-a-camera-capture-accessory-on-iphone-duo
+/documentation/technotes/tn3210-optimizing-your-app-for-iphone-mirroring
+/documentation/uikit/adapting-your-app-when-traits-change
+/documentation/uikit/automatic-trait-tracking
+/documentation/xcode/device-hub
+/documentation/xcode/running-your-app-on-simulated-or-physical-devices
+
+# SwiftUI: arrangement views
+/documentation/swiftui/arrangementview
+/documentation/swiftui/overlayarrangementviewstyle
+/documentation/swiftui/splitarrangementviewstyle
+/documentation/swiftui/view/overlayarrangementedge(_:)
+/documentation/swiftui/view/splitarrangementlayoutratio(_:)
+/documentation/swiftui/view/splitarrangementlayoutratio(minhorizontal:idealhorizontal:maxhorizontal:minvertical:idealvertical:maxvertical:)
+/documentation/swiftui/view/splitarrangementlayoutsize(minwidth:idealwidth:maxwidth:minheight:idealheight:maxheight:)
+/documentation/swiftui/view/splitarrangementfixedlayoutsize(horizontal:vertical:)
+/documentation/swiftui/view/arrangementviewstyle(_:)
+
+# SwiftUI: reserved regions
+/documentation/swiftui/reservedregion
+/documentation/swiftui/reservedregion/queryoptions
+/documentation/swiftui/geometryproxy/reservedregions(kind:options:layoutdirectionbehavior:)
+
+# SwiftUI: bars
+/documentation/swiftui/view/toolbarverticalbehavior(_:)
+/documentation/swiftui/toolbarverticalbehavior
+/documentation/swiftui/view/toolbarverticalcompressionbehavior(_:)
+/documentation/swiftui/toolbarverticalcompressionbehavior
+/documentation/swiftui/environmentvalues/toolbarverticaledge
+/documentation/swiftui/toolbarcontent/axisbehavior(_:)
+/documentation/swiftui/toolbaritemaxisbehavior
+/documentation/swiftui/toolbarcontent/visibilitypriority(_:)
+/documentation/swiftui/toolbaritemvisibilitypriority
+/documentation/swiftui/toolbaroverflowmenu
+/documentation/swiftui/toolbaritemplacement/topbarpinnedtrailing
+/documentation/swiftui/toolbaritemplacement/cancellationaction
+/documentation/swiftui/view/presentationplacement(_:)
+/documentation/swiftui/presentationplacement
+/documentation/swiftui/view/backgroundextensioneffect()
+
+# SwiftUI: scene accessories
+/documentation/swiftui/view/sceneaccessory(content:)
+/documentation/swiftui/cameracaptureaccessory
+
+# UIKit: arrangement views
+/documentation/uikit/uiarrangementviewcontroller
+/documentation/uikit/uiarrangementviewcontroller/viewstate
+/documentation/uikit/uioverlayarrangement-swift.struct
+/documentation/uikit/uisplitarrangement-swift.struct
+
+# UIKit: reserved regions
+/documentation/uikit/uiview/reservedregion
+/documentation/uikit/uiview/reservedregion/queryoptions
+/documentation/uikit/uiview/reservedregions(kind:options:)
+
+# UIKit: bars
+/documentation/uikit/uiviewcontroller/preferredverticalbarbehavior
+/documentation/uikit/uiviewcontroller/childforpreferredverticalbarbehavior
+/documentation/uikit/uiviewcontroller/setneedsupdateofverticalbarconfiguration()
+/documentation/uikit/uiverticalbarbehavior
+/documentation/uikit/uiverticalbarcompressionbehavior
+/documentation/uikit/uiverticalbaredge
+/documentation/uikit/uitraitcollection/verticalbaredge
+/documentation/uikit/uibarbuttonitem/axisbehavior-swift.property
+/documentation/uikit/uibarbuttonitem/axisbehavior-swift.enum
+/documentation/uikit/uibarbuttonitem/visibilitypriority
+/documentation/uikit/uibarbuttonitemvisibilitypriority
+/documentation/uikit/uinavigationitem/additionaloverflowitems
+/documentation/uikit/uinavigationitem/leadingitemgroups
+/documentation/uikit/uinavigationitem/pinnedtrailinggroup
+/documentation/uikit/uisheetpresentationcontroller/preferredplacement
+/documentation/uikit/uisheetpresentationcontroller/placement
+/documentation/uikit/uibackgroundextensionview
+
+# UIKit: scene accessories
+/documentation/uikit/uisceneaccessory
+
+# AVKit: camera direction
+/documentation/avkit/avcapturedevicedirectioncoordinator
+/documentation/avkit/avcapturedevicedirectionmap
+/documentation/uikit/uinavigationitem/verticalbarcompressionbehavior
+
+# Hinge state (not linked from the Duo overview; found via the SDK headers)
+/documentation/swiftui/view/onhingechange(isenabled:_:)
+/documentation/swiftui/devicehinge
+/documentation/swiftui/devicehingecontext
+/documentation/swiftui/devicehinge/status-swift.struct
+/documentation/uikit/uihinge
+/documentation/uikit/uihingeinteraction
+/documentation/uikit/uihinge/status-swift.enum
+
+# Member pages for symbols the curated references use
+/documentation/swiftui/reservedregion/kind-swift.struct
+/documentation/swiftui/reservedregion/kind-swift.struct/division
+/documentation/swiftui/reservedregion/kind-swift.struct/occlusion
+/documentation/swiftui/reservedregion/isactive
+/documentation/swiftui/reservedregion/frame
+/documentation/swiftui/reservedregion/margins
+/documentation/swiftui/reservedregion/queryoptions/includeinactive
+/documentation/swiftui/layoutdirectionbehavior
+/documentation/swiftui/toolbaritemvisibilitypriority/init(higherthan:)
+/documentation/swiftui/toolbaritemvisibilitypriority/init(lowerthan:)
+/documentation/swiftui/overlayarrangementviewstyle/axes(_:)
+/documentation/swiftui/splitarrangementviewstyle/axes(_:)
+/documentation/swiftui/automaticarrangementviewstyle
+/documentation/swiftui/arrangementviewstyle
+/documentation/uikit/uiview/reservedregion/kind-swift.struct
+/documentation/uikit/uiview/reservedregion/isactive
+/documentation/uikit/uiview/reservedregion/frame
+/documentation/uikit/uiview/reservedregion/margins
+/documentation/uikit/uioverlayarrangement-swift.struct/axes(_:)
+/documentation/uikit/uisplitarrangement-swift.struct/axes(_:)
+/documentation/uikit/uiarrangementviewcontroller/updatearrangement(_:animated:)
+/documentation/uikit/uiarrangementviewcontroller/state(for:)
+/documentation/uikit/uihingeinteraction/update
